@@ -1,6 +1,5 @@
-
 body {
-background: url('../img/main/body-bg.png') repeat;
+/* background: url('../img/main/body-bg.png') repeat; */
 font-size: 15px;
 font-family: 'Quattrocento', 'Book Antiqua', 'Times New Roman', serif;
 }
@@ -152,4 +151,6 @@ text-shadow: 1px 1px 0 #000000;
         font-size: 18px;
       }
       }
+
+/* end CAROUSEL */
 
