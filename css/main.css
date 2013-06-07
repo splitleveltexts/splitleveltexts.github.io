@@ -84,14 +84,14 @@ text-shadow: 1px 1px 0 #000000;
 
 		/* set carousel base height */
     .carousel .item {
-      height: 280px;
+      height: 40px;
     }
     .carousel img {
       position: absolute;
       top: 0;
       left: 0;
       min-width: 100%;
-      height: 280px;
+      height: 400px;
     }
 
     .carousel-caption {
@@ -121,11 +121,11 @@ text-shadow: 1px 1px 0 #000000;
 
 		/* set carousel 979 height */
       .carousel .item {
-        height: 280px;
+        height: 360px;
       }
       .carousel img {
         width: auto;
-        height: 280px;
+        height: 360px;
       }
 
 		.carousel-caption {
