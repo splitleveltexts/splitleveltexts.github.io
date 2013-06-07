@@ -27,7 +27,7 @@ text-shadow: 1px 1px 0 #000000;
 
 .cover { margin: 5px 20px 15px 20px; box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.125); }
 
-.cover a:hover { box-shadow: -6px 6px 8px rgba(0, 0, 0, 0.195);}
+.covers a:hover { box-shadow: -6px 6px 8px rgba(0, 0, 0, 0.195);}
 
 .main-cover {margin-top: 15px; box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.125);
  }
