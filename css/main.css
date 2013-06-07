@@ -97,7 +97,7 @@ text-shadow: 1px 1px 0 #000000;
 
 		/* set carousel base height */
     .carousel .item {
-      height: 40px;
+      height: 400px;
     }
     .carousel img {
       position: absolute;
