@@ -1,7 +1,12 @@
 body {
 /* background: url('../img/main/body-bg.png') repeat; */
 font-size: 15px;
-font-family: 'Quattrocento', 'Book Antiqua', 'Times New Roman', serif;
+font-family: 'Roboto', sans-serif;
+}
+
+
+h1, h2. h3, h4 {
+font-family: 'Arvo', serif;	
 }
 
 .navbar-inverse .navbar-inner {
@@ -18,12 +23,12 @@ color: #FFFFFF;
 text-shadow: 1px 1px 0 #000000;
 }
 
-@font-face {
-  font-family: 'Quattrocento';
+/* @font-face {
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   src: local('Quattrocento'), url(http://themes.googleusercontent.com/static/fonts/quattrocento/v4/WZDISdyil4HsmirlOdBRFKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
-}
+} */
 
 .cover { margin: 5px 20px 15px 20px; box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.125); }
 
