@@ -1,0 +1,13 @@
+<div class="row post">
+	<div class="span8">
+		<h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+		<info datetime="{{ page.date | date: "%m-%d-%Y" }}">
+			{{ post.date }}
+		</info>
+		<div class="postbody">
+			{{ post.content }}
+		</div>
+	</div> <!-- .span8 -->
+</div> <!-- /.row .post -->
+
+<hr>
