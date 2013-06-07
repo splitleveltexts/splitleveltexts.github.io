@@ -37,6 +37,7 @@ text-shadow: 1px 1px 0 #000000;
 .covers img:hover { box-shadow: -6px 6px 8px rgba(0, 0, 0, 0.195);}
 .covers h4, .covers p {display: none; }
 
+.more {margin-top: 15px; }
 
 .main-cover {margin-top: 15px; box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.125);
  }
