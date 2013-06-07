@@ -11,6 +11,8 @@ h1, h2, h3, h4, .navbar, footer , .btn {
 font-family: 'Arvo', serif;	
 }
 
+a { color: rgb(241, 64, 40); }
+
 .navbar-inverse .navbar-inner {
 background: #111111;
 }
