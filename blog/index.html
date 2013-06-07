@@ -1,0 +1,19 @@
+---
+layout: default
+title: SplitLevelTexts | Blog
+---
+	
+	<div class="row blog">
+		{% for post in site.posts limit:10 %}
+		<div class="span8 posts">
+		
+		{% include listed-post.html %}
+		
+		</div> <!-- /.span8 .posts -->
+		{% endfor %}
+		
+		<div class="span4 sidebar">
+		
+		</div> <!-- /.span4 .sidebar -->
+		
+	</div><!--/.row .blog -->

@@ -1,0 +1,19 @@
+---
+layout: default
+---
+	<div class="row post">
+		<div class="span8 single">
+			<h2>{{ page.title }}</h2>
+			<info datetime="{{ page.date | date: "%m-%d-%Y" }}">
+				{{ post.date }}
+			</info>
+			<!-- Post content -->
+			<div class="postbody">
+				{{ post.content }}
+			</div>
+			<!-- Post info -->
+			<div class="postinfo">
+			<!-- include some categories and tags maybe? -->
+			</div>			
+		</div><!-- /.span8 .post .single -->
+	</div><!-- /.row .blog -->
