@@ -12,6 +12,7 @@ font-family: 'Arvo', serif;
 }
 
 a { color: rgb(241, 64, 40); }
+a:hover { color: rgba(241, 64, 40, 0.53); }
 
 .navbar-inverse .navbar-inner {
 background: #111111;
