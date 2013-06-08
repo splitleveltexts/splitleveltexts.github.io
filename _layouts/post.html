@@ -4,13 +4,13 @@ blog: active
 ---
 	<div class="row post">
 		<div class="span8 single">
-			<h2>{{ post.title }}</h2>
+			<h2>{{ page.title }}</h2>
 			<info datetime="{{ post.date }}">
-				{{ post.date }}
+				{{ page.date }}
 			</info>
 			<!-- Post content -->
 			<div class="postbody">
-				{{ post.content }}
+				{{ content }}
 			</div>
 			<!-- Post info -->
 			<div class="postinfo">
