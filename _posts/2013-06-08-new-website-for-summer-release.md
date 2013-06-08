@@ -3,6 +3,7 @@ layout: post
 title: New Website for Summer Releases
 category: blog
 tags: news
+author: Aaron McCollough
 ---
 We're happy to announce we've launched our new website, hosted in [GitHub](https://github.com/splitleveltexts/splitleveltexts.github.io).
 
