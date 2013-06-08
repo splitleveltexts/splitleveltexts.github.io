@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SplitLevel Texts is Live with Kenny Bloggins
+title: SplitLevel Texts Live with Kenny Bloggins
 tags: testing
 category: blog
 ---
