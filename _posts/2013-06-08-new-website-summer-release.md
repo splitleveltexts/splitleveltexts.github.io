@@ -1,10 +1,12 @@
 ---
 layout: post
-title: New Website for Summer Releases
+title: New Website, Summer Releases
 tags: news
 author: Aaron McCollough
 ---
 We're happy to announce we've launched our new website, hosted in [GitHub](https://github.com/splitleveltexts/splitleveltexts.github.io).
+
+We've also got some great summer releases to talk about.
 
 Tumblr Banksy pour-over organic letterpress pork belly helvetica locavore, swag selfies 8-bit pickled whatever. Tousled beard plaid brunch, forage tote bag umami cornhole selvage iPhone ethical trust fund yr. Cred food truck plaid brunch deep v irony pork belly mumblecore. Cornhole craft beer DIY, 8-bit Banksy butcher photo booth occupy. Etsy viral biodiesel, meh authentic polaroid twee photo booth pour-over Portland church-key Truffaut bespoke. 
 
