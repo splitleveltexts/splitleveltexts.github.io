@@ -4,19 +4,19 @@ title: Blog
 blog: active
 ---
 	<div class="row blog">
-		{% for post in site.posts limit:10 %}
+		
 		<div class="span8 posts">
-		
+			{% for post in site.posts limit:5 %}
 			{% include listed-post.html %}
-		
+			{% endfor %}
+			
+			{% for post in site.posts %}
+			{% include post-list.html %}
+			{% endfor %}
 		</div> <!-- /.span8 .posts -->
-		{% endfor %}
+		
 		
 		<div class="span4 sidebar">
-			<ul class="listposts">
-    				{% for post in site.posts %}
-      				<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    				{% endfor %}
-  			</ul>
+			
 		</div><!--/.span4 .sidebar -->			
 	</div> <!--./row .blog -->
