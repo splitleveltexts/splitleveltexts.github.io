@@ -1,7 +1,6 @@
 ---
 layout: post
 title: New Website for Summer Releases
-category: blog
 tags: news
 author: Aaron McCollough
 ---
