@@ -5,11 +5,11 @@ layout: default
 		<div class="span8 single">
 			<h2>{{ page.title }}</h2>
 			<info datetime="{{ page.date | date: "%m-%d-%Y" }}">
-				{{ post.date }}
+				{{ page.date }}
 			</info>
 			<!-- Post content -->
 			<div class="postbody">
-				{{ post.content }}
+				{{ page.content }}
 			</div>
 			<!-- Post info -->
 			<div class="postinfo">
