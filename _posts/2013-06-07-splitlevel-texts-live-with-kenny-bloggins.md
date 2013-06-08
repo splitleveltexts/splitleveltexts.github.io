@@ -2,7 +2,6 @@
 layout: post
 title: SplitLevel Texts Live with Kenny Bloggins
 tags: testing
-category: blog
 author: Aaron McCollough
 ---
 Sustainable McSweeney's [American Apparel](http://google.com "American Apparel"), voluptate helvetica mixtape in selvage laboris thundercats. Velit nisi polaroid authentic. Small batch adipisicing twee narwhal, culpa yr photo booth Odd Future. Qui hoodie id Portland, consequat tattooed vero. 
