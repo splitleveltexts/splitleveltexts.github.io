@@ -3,13 +3,13 @@ layout: default
 ---
 	<div class="row post">
 		<div class="span8 single">
-			<h2>{{ page.title }}</h2>
-			<info datetime="{{ page.date | date: "%m-%d-%Y" }}">
-				{{ page.date }}
+			<h2>{{ post.title }}</h2>
+			<info datetime="{{ post.date }}">
+				{{ post.date }}
 			</info>
 			<!-- Post content -->
 			<div class="postbody">
-				{{ page.content }}
+				{{ post.content }}
 			</div>
 			<!-- Post info -->
 			<div class="postinfo">
