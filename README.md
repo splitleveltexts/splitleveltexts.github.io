@@ -4,7 +4,7 @@ It is automatically transformed by [Jekyll](http://github.com/mojombo/jekyll) in
 
 # License
 
-The following directories and their contents are Copyright Split Level Texts. You may not reuse anything therein without my permission:
+The following directories and their contents are Copyright SplitLevel Texts. You may not reuse anything therein without my permission:
 
 * texts/
 * about/
