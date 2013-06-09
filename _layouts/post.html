@@ -6,10 +6,10 @@ blog: active
 		<div class="span8 single">
 			<h2>{{ page.title }}</h2>
 			<info datetime="{{ page.date }}">
-				<strong>{{ page.date }}</strong>
+				{{ page.date }}
 			</info>
 			<info>
-				by <strong>{{ page.author }}</strong>
+				by {{ page.author }}
 			</info>
 			<!-- Post content -->
 			<div class="postbody">
