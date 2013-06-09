@@ -4,12 +4,9 @@ blog: active
 ---
 	<div class="row post">
 		<div class="span8 single">
-			<h2>{{ page.title }}</h2>
+			<h2 class="title">{{ page.title }}</h2>
 			<info datetime="{{ page.date }}">
-				{{ page.date }}
-			</info>
-			<info>
-				by {{ page.author }}
+				{{ page.date }} by {{ page.author }}
 			</info>
 			<!-- Post content -->
 			<div class="postbody">
