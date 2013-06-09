@@ -185,3 +185,10 @@ text-shadow: 1px 1px 0 #000000;
 
 /* end CAROUSEL */
 
+
+/* BLOG */
+.post info { margin-bottom: 10px; }
+.post h2.title { margin-bottom: 0px; }
+
+
+
