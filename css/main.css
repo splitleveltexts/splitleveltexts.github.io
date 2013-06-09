@@ -187,8 +187,7 @@ text-shadow: 1px 1px 0 #000000;
 
 
 /* BLOG */
-.post info { margin-bottom: 10px; }
-.post h2.title { margin-bottom: 0px; }
-
+.post h2.title { margin-bottom: 5px; }
+.post .postbody { margin-top: 25px; }
 
 
