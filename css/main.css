@@ -1,3 +1,4 @@
+/* FONTS */
 @font-face {
   font-family: 'Arvo';
   font-style: normal;
@@ -11,16 +12,14 @@
   src: local('Roboto Light'), local('Roboto-Light'), url(http://themes.googleusercontent.com/static/fonts/roboto/v8/Hgo13k-tfSpn0qi1SFdUfbO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
 }
 
+/* GLOBAL */
 body {
-/* background: url('../img/main/body-bg.png') repeat; */
 font-size: 15px;
 font-family: 'Roboto', sans-serif;
 font-weight: 300;
 }
 
-
-
-h1, h2, h3, h4, .navbar, footer , .btn, info, p.author, ul.listposts li span {
+h1, h2, h3, h4, .navbar, footer , .btn, info, p.author, ul.listposts li span, ul#tabs.nav.nav-tabs {
 font-family: 'Arvo', serif;
 font-weight: 400;
 }
@@ -42,24 +41,18 @@ color: #FFFFFF;
 text-shadow: 1px 1px 0 #000000;
 }
 
-/* @font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Quattrocento'), url(http://themes.googleusercontent.com/static/fonts/quattrocento/v4/WZDISdyil4HsmirlOdBRFKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
-} */
 
+
+
+/* Book Covers */
 .cover { margin: 5px 20px 15px 20px; box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.125); }
-
 .covers img:hover { box-shadow: -6px 6px 8px rgba(0, 0, 0, 0.195);}
 .covers h4, .covers p {display: none; }
-
-
-.more {margin-top: 15px; }
-
 .main-cover {margin-top: 15px; box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.125);
  }
+.more {margin-top: 15px; }
 
+/* Text Pages */
 .author-bio p {margin-top: 15px; }
 
 .contact { margin-top: 60px; }
@@ -69,7 +62,10 @@ text-shadow: 1px 1px 0 #000000;
 
 .description { margin-top: 40px; }
 
-.nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus { background: url('../img/body-bg.png') repeat; }
+
+/* BLOG */
+.post h2.title { margin-bottom: 5px; }
+.post .postbody { margin-top: 25px; }
 
 
  /* CUSTOMIZE THE CAROUSEL
@@ -183,10 +179,3 @@ text-shadow: 1px 1px 0 #000000;
       }
 
 /* end CAROUSEL */
-
-
-/* BLOG */
-.post h2.title { margin-bottom: 5px; }
-.post .postbody { margin-top: 25px; }
-
-
