@@ -2,9 +2,9 @@
 title: Gemini White Cyclosa
 author: Jon McGlone
 ---
-Veggies sunt bona vobis, proinde vos postulo esse magis cucumber quandong plantain radicchio okra lentil.
+<img class="center" data-src="js/holder.js/620x400">
 
-<img data-src="js/holder.js/620x400">
+Veggies sunt bona vobis, proinde vos postulo esse magis cucumber quandong plantain radicchio okra lentil.
 
 Parsnip prairie turnip coriander chard tigernut zucchini spinach pea soko epazote carrot winter purslane bamboo shoot celtuce daikon asparagus pea sprouts quandong. Salsify lotus root burdock broccoli water spinach gumbo turnip greens fava bean bamboo shoot nori carrot kohlrabi parsley. Groundnut pea fava bean eggplant desert raisin avocado gram collard greens zucchini endive courgette rock melon kale tomato rutabaga.
 
