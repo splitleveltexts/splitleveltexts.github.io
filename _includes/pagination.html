@@ -1,0 +1,20 @@
+<!-- Pagination links -->
+<div class="row pagination">
+  <div class="span4">
+    {% if paginator.previous_page %}
+      <a href="/page{{ paginator.previous_page }}" class="previous pull-left btn btn-inverse">Previous</a>
+    {% else %}
+      <span class="previous previous pull-left btn btn-inverse">Previous</span>
+    {% endif %}
+  </div>
+  
+  <!-- <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span> -->
+  <div class="span4">
+    {% if paginator.next_page %}
+      <a href="/page{{ paginator.next_page }}" class="next pull-right btn btn-inverse">Next</a>
+    {% else %}
+      <span class="next pull-right btn btn-inverse">Next</span>
+    {% endif %}
+  </div>
+  
+</div><!-- /.row -->
