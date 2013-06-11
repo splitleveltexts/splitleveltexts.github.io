@@ -1,4 +1,5 @@
 ---
+layout: post
 title: On Abiding
 author: The Dude
 ---
