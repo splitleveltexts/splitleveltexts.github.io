@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Split Your Infinites
 author: Jon McGlone
 ---
