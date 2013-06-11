@@ -6,7 +6,7 @@ blog: active
 		<div class="span8 single">
 			<h2 class="title">{{ page.title }}</h2>
 			<info datetime="{{ page.date }}">
-				{{ page.date | date_to_string }} by {{ page.author }}
+				{{ page.date | date_to_string }} {% if page.author %} by {{ page.author }} {% endif %}
 			</info>
 			<!-- Post content -->
 			<div class="postbody">
