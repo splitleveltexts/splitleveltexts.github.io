@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Gemini White Cyclosa
 author: Jon McGlone
 ---
