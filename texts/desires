@@ -1,0 +1,67 @@
+---
+layout: default
+title: The Desires of Mothers to Please Others in Letters by Bernadette Mayer
+home: passive
+about: passive
+texts: active
+---
+  <!-- Title Metadata and Cover Image -->
+	<div class="row">
+		<!-- Cover -->
+		<div class="span4">
+			<img class="img-square main-cover" src="http://splitleveltexts.com/img/covers/mayer-280px.png" title="Bernadette Mayer - The Desires of Mothers to Please Others in Letters">
+		</div><!-- /.span4 -->
+		
+		<!-- Description -->		
+		<div class="span8">
+			<h2 class="title">The Desires of Mothers to Please Others in Letters</h2>
+			<p class="author">Bernadette Mayer</p>
+			<p class="date">Summer 2016</p>
+			<p class="format">Paperback<!-- , 234 p. --></p>
+			<p class="price">$14.95.00</p>
+			<a class="btn btn-large btn-inverse" href="http://www.spdbooks.org/">Coming Soon!</a>
+		</div><!-- /.span8 -->
+	</div><!-- /.row -->
+	
+	<!-- About the Text and About the Author Tabs -->
+	<div class="row description">
+		<div class="span12">
+			<!-- Tabs -->
+			<ul class="nav nav-tabs" id="tabs">
+  				<li class="active"><a href="#text">About the Text</a></li>
+  				<li><a href="#author">About the Author</a></li>
+			</ul>
+			
+			<!-- Tab Content -->
+			<div class="tab-content">
+				<!-- About the Text -->
+  				<div class="tab-pane active" id="text">
+  						
+  							<p>"Bernadette Mayer’s influential epistolary invention was written during a period of emergent, unbounded feminist literary experimentation and in the context of a vital New York School and East Coast poetic community. The republication of these adventurous, audacious, time-based, culturally critical, and sociable writings reawakens a sense of what’s possible in poetry, between the freedom of improvisation and the predetermination of constraint. Mayer’s invocation of the philosophical question of “the other” as an indeterminate aspect of the actuality and concept of “mother” is particularly compelling to this reader as is her durational attempt “to get at about the bearing of children before they are born." This desire writing however is also, if not foremost, an event of sentences. Mayer’s sentences stretch, heap, languish in densities, launch into anecdote, adjust a perspective, represent realities, compel judgment, rush past the stop, encourage self-awareness, and offer themselves to the pleasure of others."</p>
+ <p>—Carla Harryman</p>
+  					
+  					<p>"Bernadette Mayer’s poetry is untamed, word-loving, thought-bending, scientific, able-bodied, funny, generous, honest, and fearless. She is also a supreme formalist, especially when her poems are at their most playful and unpredictable. That is, she possesses a unique and an exemplary grammar of loving. Mayer has delivered a libertine vision of the last most free site—the home world. And it’s deep, filled with everyday life, children, landlords, laundry, bills, food, dollar stores, and lovers. Sometimes when I am reading Bernadette Mayer’s work I can’t tell if she has a broken heart in a fierce world or a fierce heart in a broken world. I suspect it is the latter. The Desires of Mothers to Please Others in Letters is a masterwork."</p>
+  					<p>—Peter Gizzi</p>
+  					
+  					<p>"What if we could write poetry at the very same moment we live our lives? What if we could use imagination and language to speak all sides of our mind to all of the others who we love? What if we could invent a form that is at once poetry and prose, at once direct communication and also vast and complex self-portrait of integrated imaginary, intellectual and emotional experience? Bernadette Mayer has generously done that for us in her astounding book The Desires of Mothers to Please Others in Letters in a way that enables us to think of everything anew. She writes a letter to the world who always writes to her all at once and one person at a time and that person is you."</p>
+  					<p>—Laynie Browne</p>
+
+
+
+  				</div><!-- /#text -->
+  				<!-- About the Author -->
+				<div class="tab-pane" id="author">
+					<div class="row">
+						<!-- Author Image -->
+						<div class="span3">
+  							<img class="img-square" src="/img/author/mayer_bernadette.png">
+  						</div>
+  						<!-- Author Bio -->
+  						<div class="span9 author-bio">
+  						<p>Bernadette Mayer is the author of more than 27 collections, including The Helens of Troy (2013), The Formal Field of Kissing (1990) and Eating The Colors of a Lineup of Words: The Early Books of Bernadette Mayer (2015), as well as countless chapbooks and artist’s books. She has received grants from The Guggenheim Foundation, National Endowment for the Arts and the Foundation for Contemporary Arts. She is also the recipient of the 2014 Shelley Memorial Award from the Poetry Society of America.</p>
+
+  							
+  						</div>
+  					</div><!-- /.row -->
+  				</div><!-- /#author -->
+  			</div><!-- /.tab-content -->
