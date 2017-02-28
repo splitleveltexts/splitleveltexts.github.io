@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SplitLevel Texts Announce New Website
+title: SplitLevel Texts Announces New Website
 tags: announcements
 <!-- author: Aaron McCollough -->
 ---
