@@ -75,6 +75,10 @@ p.jnlauthor {
     line-height: 1.8;
   }
   
+  .jnline-normal {
+    line-height: 1.0;
+  }
+
   .jnlline-small {
     line-height: .8;
   }
