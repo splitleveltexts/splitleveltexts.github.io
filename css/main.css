@@ -51,7 +51,33 @@ color: #FFFFFF;
 text-shadow: 1px 1px 0 #000000;
 }
 
+p.copyright {
+  font-size: 10px;  
+  }
 
+/* JOURNAL */
+
+p.jnlauthor {
+  font-family: 'Arvo', serif;
+  font-weight: 400;
+  line-height: 2.5; 
+  }
+  
+  p.jnlback {
+  text-align: left;  
+  }
+  
+  p.jnlcovercred {
+  font-size: 9px;  
+  }
+  
+  .jnlline-big {
+    line-height: 1.8;
+  }
+  
+  .jnlline-small {
+    line-height: .8;
+  }
 
 
 /* Book Covers */
