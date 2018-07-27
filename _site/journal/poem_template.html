@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>SplitLevel Texts | {{ page.title }}</title>
+    <title>SplitLevel Texts | SLT Journal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="SplitLevel Texts is a small-press publisher of illuminating / texts.">
        <link href="http://feeds.feedburner.com/splitleveltexts" rel="alternate" title="SplitLevel Texts" type="application/atom+xml" />
@@ -47,10 +47,10 @@
           <a class="brand" href="/">SplitLevel Texts</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="{{ page.about }}"><a href="/about">About</a></li>
-              <li class="{{ page.texts }}"><a href="/texts">The Texts</a></li>
-              <li class="{{ page.journal }}"><a href="/journal">SplitLevel Journal</a></li>
-              <li class="{{ page.blog }}"><a href="/blog">Blog</a></li>
+              <li class="passive"><a href="/about">About</a></li>
+              <li class="passive"><a href="/texts">The Texts</a></li>
+              <li class="active"><a href="/journal">SplitLevel Journal</a></li>
+              <li class=""><a href="/blog">Blog</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -62,7 +62,104 @@
 
 <div class="container">  
   
-{{ content }}  
+	<!-- Row across entire page to contain SLT Journal Single Poem w/Journal cover image -->
+	<div class="row">
+		<div class="span12">
+				<a name="top"></a>	
+				<!-- SLTJournal Issue - Issue #1  -->
+			<div class="row catalog">
+				<!-- Cover -->
+				<div class="span4">
+					<a href="/journal/#issue1"><img class="img-square main-cover" src="/img/journal/reckon2-200px.png" title="Issue #1 Coverimage by Reckon 2009 CC BY-SA"></a>
+					<p class="jnlback"><a href="/journal/#issue1">Back to The Issue</a></p>
+					
+				</div>
+				
+				<!-- Description -->				
+				<div class="span8">
+					<h3 class="title">"Against Travel"</h3>
+					<p class="author">Rachel Levitsky</p>
+				
+					
+
+				
+<p>   </p>
+<!-- line height adjustments (don't forget to uncomment end div below poem contents) -->
+<!-- <div class="jnlline-normal"> -->
+	<p>
+		<em>
+			for Suzanne
+			<p>
+			</p>
+		</em>
+	</p>
+	<p>
+		<p>
+			&#160;
+		</p>
+	</p>
+	<p>
+		What Thay says gets repeated until I can carry it. It's not the same as a
+		habit that hurts every instance it is practiced or hurts worse, a spot on a
+		lip gets bitten again and again.
+		<p>
+		</p>
+	</p>
+	<p>
+		<p>
+			&#160;
+		</p>
+	</p>
+	<p>
+		It's swollen.
+		<p>
+		</p>
+	</p>
+	<p>
+		<p>
+			&#160;
+		</p>
+	</p>
+	<p>
+		When conditions aren't good, supports that exist cannot be perceived. Or
+		was I watching the video that Suzanne sent, replaying Judith Butler walking
+		redefining the walk with her companion Sunaura Taylor who was born with
+		Arthrogryposis and walks alongside with her high powered chair. You and I
+		argue silently; over the cause of our inability to perceive, who said it,
+		how it was said, which politics it reveals and if it is politics at all.
+		How much of it is love. Possibly love, possibly love tainted by some other
+		emotion goddess forgive anger god forbid jealousy. Bloods, bloodletting.
+		Events become objects that speak to what gets in our way. Today's random
+		appearance is I've nothing to gain. I could say we but won't speak for you
+		here. Marielle Franco was assassinated in the street. Not last night, the
+		night before.
+		<p>
+		</p>
+	</p>
+
+<br />
+<!-- </div> -->
+<!-- <audio controls>
+	<source src="http://gutcult.com/Site/04-Death_Becomes_Fur.mp4"
+			type='audio/mp4'>
+			
+	<p>Your user agent does not support the HTML5 Audio element.</p>
+   </audio>					 -->
+					
+				</div>	
+			</div><!-- /.row -->
+			<!-- SLTJournal Issue - Issue #1 - END -->
+	
+	<p class="jnlback"><a href="/journal/#issue1">Back to The Issue</a> | <a href="#top">Back to the Top</a></p>		
+	
+	<hr>
+
+		<!-- Author Bio line-->	
+	
+	<p>Author Bio: </p>		
+		</div><!-- /.span12 -->
+	</div><!-- /.row -->
+  
   
   <!-- CONTENT END -->
 <hr>
@@ -82,7 +179,17 @@
     ================================================== -->
     
     	<!-- Google Analytics -->
-    {% include analytics.html %}
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41595210-1', 'splitleveltexts.github.io');
+  ga('send', 'pageview');
+
+</script>
+
 	<!-- Google Analytics end -->
 	
 	<!-- js files start -->    

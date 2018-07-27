@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>SplitLevel Texts | {{ page.title }}</title>
+    <title>SplitLevel Texts | SLT Journal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="SplitLevel Texts is a small-press publisher of illuminating / texts.">
        <link href="http://feeds.feedburner.com/splitleveltexts" rel="alternate" title="SplitLevel Texts" type="application/atom+xml" />
@@ -47,10 +47,10 @@
           <a class="brand" href="/">SplitLevel Texts</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="{{ page.about }}"><a href="/about">About</a></li>
-              <li class="{{ page.texts }}"><a href="/texts">The Texts</a></li>
-              <li class="{{ page.journal }}"><a href="/journal">SplitLevel Journal</a></li>
-              <li class="{{ page.blog }}"><a href="/blog">Blog</a></li>
+              <li class="passive"><a href="/about">About</a></li>
+              <li class="passive"><a href="/texts">The Texts</a></li>
+              <li class="active"><a href="/journal">SplitLevel Journal</a></li>
+              <li class=""><a href="/blog">Blog</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -62,7 +62,77 @@
 
 <div class="container">  
   
-{{ content }}  
+	<!-- Row across entire page to contain SLT Journal Single Poem w/Journal cover image -->
+	<div class="row">
+		<div class="span12">
+			
+				<!-- SLTJournal Issue - Issue #1  -->
+			<div class="row catalog">
+				<!-- Cover -->
+				<div class="span4">
+					<a href="/journal/#issue1"><img class="img-square main-cover" src="/img/journal/reckon2-200px.png" title="Issue #1 Coverimage by Reckon 2009 CC BY-SA"></a>
+					<p class="jnlback"><a href="/journal/#issue1">Back to The Issue</a></p>
+					
+				</div>
+				
+				<!-- Description -->				
+				<div class="span8">
+					<h3 class="title">"<u>Coleridge's window</u>"</h3>
+					<p class="author">Martin Corless-Smith</p>
+				
+					
+
+					
+<p>   </p>
+<div class="jnlline-big">
+<p>The frost performs its secret ministry</p>
+<p>unhinged by any part. I can’t</p>
+<p>recall a single day as any thing</p>
+<p>beyond a spectacle of loss. One</p>
+<p>has the instant almost held of course</p>
+<p>and one has the bliss of ignorant</p>
+<p>forgetfulness—but who is that</p>
+<p>and what of any of it now—it is</p>
+<p>come to facts and facts do not exist</p>
+<p>in company to selves—they are a</p>
+<p>sheen of details on the lens of one</p>
+<p>blank window bordering the inside with the out…</p>
+<p>  </p>
+<p>having early left one never can</p>
+<p>relive the prior instant or relieve</p>
+<p>the action of its consequence.</p>
+<p>Man, being timely, sticks in time</p>
+<p>no counterpart alternative survives</p>
+<p>just the memory, receding with each play</p>
+<p>of counterfactual chances—ghosts</p>
+<p>that never walked the house</p>
+<p>  </p>
+<p>                                       haunt everyday.</p>
+</div>
+<br />
+
+<!-- <audio controls>
+	<source src="http://gutcult.com/Site/04-Death_Becomes_Fur.mp4"
+			type='audio/mp4'>
+	<!-- The next line will only be executed if the browser doesn't support the <audio> tag
+	<p>Your user agent does not support the HTML5 Audio element.</p>
+   </audio>			-->
+					
+				</div>	
+			</div><!-- /.row -->
+			<!-- SLTJournal Issue - Issue #1 - END -->
+
+	<p class="jnlback"><a href="/journal/#issue1">Back to The Issue</a> | <a href="#top">Back to the Top</a></p>	
+
+		<hr>
+
+	
+	<!-- Author Bio line-->	
+	
+	<p>Author Bio: Martin Corless-Smith was born and raised in Worcestershire, England. Two of his books were published in 2015: Bitter Green, from Fence Books, and <a href="http://splitleveltexts.com/texts/this-fatal.html">This Fatal Looking Glass</a>, from SplitLevel Texts. He teaches Creative Writing and Literature at Boise State University.</p>		
+		</div><!-- /.span12 -->
+	</div><!-- /.row -->
+  
   
   <!-- CONTENT END -->
 <hr>
@@ -82,7 +152,17 @@
     ================================================== -->
     
     	<!-- Google Analytics -->
-    {% include analytics.html %}
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41595210-1', 'splitleveltexts.github.io');
+  ga('send', 'pageview');
+
+</script>
+
 	<!-- Google Analytics end -->
 	
 	<!-- js files start -->    

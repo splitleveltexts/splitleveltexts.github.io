@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>SplitLevel Texts | {{ page.title }}</title>
+    <title>SplitLevel Texts | This Fatal Looking Glass by Martin Corless-Smith</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="SplitLevel Texts is a small-press publisher of illuminating / texts.">
        <link href="http://feeds.feedburner.com/splitleveltexts" rel="alternate" title="SplitLevel Texts" type="application/atom+xml" />
@@ -47,10 +47,10 @@
           <a class="brand" href="/">SplitLevel Texts</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="{{ page.about }}"><a href="/about">About</a></li>
-              <li class="{{ page.texts }}"><a href="/texts">The Texts</a></li>
-              <li class="{{ page.journal }}"><a href="/journal">SplitLevel Journal</a></li>
-              <li class="{{ page.blog }}"><a href="/blog">Blog</a></li>
+              <li class="passive"><a href="/about">About</a></li>
+              <li class="active"><a href="/texts">The Texts</a></li>
+              <li class=""><a href="/journal">SplitLevel Journal</a></li>
+              <li class=""><a href="/blog">Blog</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -62,7 +62,62 @@
 
 <div class="container">  
   
-{{ content }}  
+  <!-- Title Metadata and Cover Image -->
+	<div class="row">
+		<!-- Cover -->
+		<div class="span4">
+			<img class="img-square main-cover" src="http://splitleveltexts.com/img/covers/mcs-280px.png" title="Martin Corless-Smith - This Fatal Looking Glass">
+		</div><!-- /.span4 -->
+		
+		<!-- Description -->		
+		<div class="span8">
+			<h2 class="title">This Fatal Looking Glass</h2>
+			<p class="author">Martin Corless-Smith</p>
+			<p class="date">Spring 2015</p>
+			<p class="format">Paperback<!-- , 234 p. --></p>
+			<p class="price">$16.00</p>
+			<a class="btn btn-large btn-inverse" href="http://www.spdbooks.org/Producte/9780985811174/this-fatal-looking-glass.aspx?rf=1">Purchase</a>
+		</div><!-- /.span8 -->
+	</div><!-- /.row -->
+	
+	<!-- About the Text and About the Author Tabs -->
+	<div class="row description">
+		<div class="span12">
+			<!-- Tabs -->
+			<ul class="nav nav-tabs" id="tabs">
+  				<li class="active"><a href="#text">About the Text</a></li>
+  				<li><a href="#author">About the Author</a></li>
+			</ul>
+			
+			<!-- Tab Content -->
+			<div class="tab-content">
+				<!-- About the Text -->
+  				<div class="tab-pane active" id="text">
+  						
+  						<p>"A man in his forties is walking along the embankment of the river Thames. He has recently abandoned his marriage and has thus imperilled his care and responsibility for his son whom he loves. He now does not know if he is experiencing freedom, or a condition of being irrevocably lost. Or are these the same? His brain, or so he has read, is a contorted maze of surfaces (he must look this up). But then what was the reality of the so called outside world? One so seldom saw or touched anything except a surface—that of the glittering river, for instance, which was like a looking glass, or like love. Unless one jumped in and drowned, that is. But then, might not life and death seem the same? Especially if one were a poet or a painter. Which he was. Both, I mean."</p>
+  						<p>—Nicholas Mosley</p> 
+
+					<p></p>
+					<p></p>
+  				</div><!-- /#text -->
+  				<!-- About the Author -->
+				<div class="tab-pane" id="author">
+					<div class="row">
+						<!-- Author Image -->
+						<div class="span3">
+  							<img class="img-square" src="/img/author/mcs.png">
+  						</div>
+  						<!-- Author Bio -->
+  						<div class="span9 author-bio">
+  						<p>Martin Corless-Smith was born and raised in Worcestershire, England. He has two books forthcoming in 2015: <em>Bitter Green</em>, from Fence Books, and <em>This Fatal Looking Glass</em>. He teaches Creative Writing and Literature at Boise State University.</p>
+
+  							
+  						</div>
+  					</div><!-- /.row -->
+  				</div><!-- /#author -->
+  			</div><!-- /.tab-content -->
+
+  
   
   <!-- CONTENT END -->
 <hr>
@@ -82,7 +137,17 @@
     ================================================== -->
     
     	<!-- Google Analytics -->
-    {% include analytics.html %}
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41595210-1', 'splitleveltexts.github.io');
+  ga('send', 'pageview');
+
+</script>
+
 	<!-- Google Analytics end -->
 	
 	<!-- js files start -->    

@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>SplitLevel Texts | {{ page.title }}</title>
+    <title>SplitLevel Texts | About</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="SplitLevel Texts is a small-press publisher of illuminating / texts.">
        <link href="http://feeds.feedburner.com/splitleveltexts" rel="alternate" title="SplitLevel Texts" type="application/atom+xml" />
@@ -47,10 +47,10 @@
           <a class="brand" href="/">SplitLevel Texts</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="{{ page.about }}"><a href="/about">About</a></li>
-              <li class="{{ page.texts }}"><a href="/texts">The Texts</a></li>
-              <li class="{{ page.journal }}"><a href="/journal">SplitLevel Journal</a></li>
-              <li class="{{ page.blog }}"><a href="/blog">Blog</a></li>
+              <li class="active"><a href="/about">About</a></li>
+              <li class="passive"><a href="/texts">The Texts</a></li>
+              <li class=""><a href="/journal">SplitLevel Journal</a></li>
+              <li class="passive"><a href="/blog">Blog</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -62,7 +62,36 @@
 
 <div class="container">  
   
-{{ content }}  
+	<!-- Single row for 2 columns on About page -->
+	<div class="row">
+		<div class="span8">
+			<h2>About SplitLevel Texts</h2>
+
+<p>We (Karla and Aaron) started SplitLevel Texts in 2011 as a way to contribute something material back to the poetry world that we love. At the time, we had some clear ideas about what that would mean:</p>
+<ul>
+<li>publish only work both of us deeply love and believe in</li>
+<li>establish another outlet for the capacious experimental lyric tradition we both identify with</li>
+<li>publish important new titles and important titles that have fallen out of print</li>
+</ul>
+
+<p>We also wanted to pay homage, editorially and in our design aesthetic, to other small presses we'd always admired, like Talisman House, Burning Deck, White Pine, and — yes — New Directions.</p>
+
+<p>We wanted to be open to experiments in the way we published our books (we started by publishing on an <a href="https://en.wikipedia.org/wiki/Espresso_Book_Machine">Espresso Book Machine</a> before moving on to other digital and offset printing models).</p>
+
+<p>Finally, we wanted to price our books modestly. Poetry is essential.</p>
+
+<p>SplitLevel Texts is a practical extension of what we do as writers, and we hope you're interested. Our titles are warehoused and sold by our friends at <a href="http://www.spdbooks.org/">Small Press Distribution</a>.</p>
+
+<p>We don't publish very many books, as you can see, but if you'd like to query us about a manuscript, please let us know: queries AT splitleveltexts dot com.</p> 
+
+		
+		</div><!-- /.span8 -->
+
+		<div class="span4">
+		</div><!-- /.span4 -->
+
+	</div><!-- /.row -->
+  
   
   <!-- CONTENT END -->
 <hr>
@@ -82,7 +111,17 @@
     ================================================== -->
     
     	<!-- Google Analytics -->
-    {% include analytics.html %}
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41595210-1', 'splitleveltexts.github.io');
+  ga('send', 'pageview');
+
+</script>
+
 	<!-- Google Analytics end -->
 	
 	<!-- js files start -->    

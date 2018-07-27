@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>SplitLevel Texts</title>
+ <link href="http://splitleveltexts.com/blog/atom.xml" rel="self"/>
+ <link href="http://splitleveltexts.com/blog/"/>
+ <updated>2018-07-27T18:22:34-04:00</updated>
+ <id>http://splitleveltexts.com/blog/</id>
+ <author>
+   <name>Aaron McCullough</name>
+   <email>aaron@splitleveltexts.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>New Review of Zuba's Durand Translation</title>
+   <link href="http://splitleveltexts.com/blog/2018/04/27/Elizabeth-Zuba-Review"/>
+   <updated>2018-04-27T00:00:00-04:00</updated>
+   <id>http://splitleveltexts.com/blog/blog/2018/04/27/Elizabeth-Zuba-Review</id>
+   <content type="html">&lt;p&gt;A new review has been published of Elizabeth Zuba’s recent translation of Anouck Durand’s “Eternal Friendship.” Read the review in the &lt;a href=&quot;http://www.santafenewmexican.com/pasatiempo/art/forgotten-comrades-anouck-durand-s-eternal-friendship/article_28993489-ddfc-5ae8-97ba-d02a31b01d5e.html&quot;&gt;&lt;em&gt;Santa Fe New Mexican&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Elizabeth is also the author of the magnificent &lt;a href=&quot;http://splitleveltexts.com/texts/decoherent.html&quot;&gt;&lt;em&gt;Decoherent The Wing’ed&lt;/em&gt;&lt;/a&gt; (SLT, 2016).&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Catherine Meng is reading in Denver on April 29, 2017</title>
+   <link href="http://splitleveltexts.com/blog/2017/03/31/Catherine-Meng-Reading-Denver"/>
+   <updated>2017-03-31T00:00:00-04:00</updated>
+   <id>http://splitleveltexts.com/blog/blog/2017/03/31/Catherine-Meng-Reading-Denver</id>
+   <content type="html">&lt;p&gt;Catherine Meng, author of &lt;a href=&quot;http://splitleveltexts.com/texts/the-longest-total-solar-eclipse-of-the-century&quot;&gt; &lt;em&gt;The Longest Total Solar Eclipse of the Century&lt;/em&gt;&lt;/a&gt; will be reading in Denver on April 29, 2017 7-10 pm at the &lt;a href=&quot;https://www.facebook.com/leongallery/&quot;&gt;Leon gallery&lt;/a&gt; in Denver. She will be joining Paula Cisewski, Taryn Schwilling, and Brian Laidlaw on guitar.&lt;/p&gt;
+
+&lt;p&gt;If you’re in the area, please attend!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Mayer's Desires Reviewed in Publisher's Weekly</title>
+   <link href="http://splitleveltexts.com/blog/2017/03/25/Desires-Review-PW"/>
+   <updated>2017-03-25T00:00:00-04:00</updated>
+   <id>http://splitleveltexts.com/blog/blog/2017/03/25/Desires-Review-PW</id>
+   <content type="html">&lt;p&gt;Publisher’s Weekly has given the SplitLevel/Nightboat joint re-publication of &lt;a href=&quot;http://splitleveltexts.com/texts/desires.html&quot;&gt;Bernadette Mayer’s &lt;em&gt;Desires of Mothers&lt;/em&gt;&lt;/a&gt; a nice, &lt;a href=&quot;http://www.publishersweekly.com/978-0-9858111-9-8&quot;&gt;starred review&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It’s good to see this book back in the world.&lt;/p&gt;
+
+&lt;p&gt;You can purchase &lt;em&gt;Desires of Mothers&lt;/em&gt; from our friends at &lt;a href=&quot;http://www.spdbooks.org/Products/9781937658670/the-desires-of-mothers-to-please-others-in-letters.aspx&quot;&gt;Small Press Distribution&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>SplitLevel Texts Announces New Website</title>
+   <link href="http://splitleveltexts.com/blog/2013/08/02/splitlevel-texts-announce-new-website"/>
+   <updated>2013-08-02T00:00:00-04:00</updated>
+   <id>http://splitleveltexts.com/blog/blog/2013/08/02/splitlevel-texts-announce-new-website</id>
+   <content type="html">&lt;p&gt;After a couple months of downtime, we’re very excited to announce our new website!&lt;/p&gt;
+
+&lt;p&gt;Please have a look around the site and be sure to stay tuned for our upcoming releases from &lt;a href=&quot;/texts/the-longest-total-solar-eclipse-of-the-century&quot;&gt;Catherine Meng&lt;/a&gt; and &lt;a href=&quot;/texts/w-m&quot;&gt;Carla Harryman&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>
