@@ -1,1 +1,3 @@
 permalink: /blog/:year/:month/:day/:title
+# Google Analytics
+google_analytics: UA-41595210-1
