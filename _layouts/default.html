@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
-<!-- Google Analytics -->
-
-{% include analytics.html %}
-
-<!-- Google Analytics end -->
 
 	  
     <meta charset="utf-8">
@@ -41,7 +35,12 @@
                     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
                                    <link rel="shortcut icon" href="../assets/ico/favicon.png">
                                    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-  </head>
+  
+	
+{% if site.google_analytics and jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}	
+</head>
   
  <!-- Navigation Bar --> 
   <div class="navbar navbar-inverse navbar-fixed-top">
@@ -89,6 +88,11 @@
  <!-- Le javascript commencer
     ================================================== -->
     
+<!-- Google Analytics -->
+
+{% include analytics.html %}
+
+<!-- Google Analytics end -->
     
 	
 	<!-- js files start -->    
