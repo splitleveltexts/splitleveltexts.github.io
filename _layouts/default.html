@@ -55,7 +55,14 @@
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="{{ page.about }}"><a href="/about">About</a></li>
-              <li class="{{ page.texts }}"><a href="/texts">The Texts</a></li>
+              <li class="dropdown right">
+                <a href="javascript:void(0)">Book Imprints</a>
+                <div class="dropdown-content">
+                  <a href="/texts" class="{{ page.texts }}">SplitLevel</a>
+                  <a href="/studio" class="{{ page.studio }}">Studio</a>
+                  <a href="/freepoetry" class="{{ page.freepoetry }}">Free Poetry</a>
+                </div>
+              </li>
               <li class="{{ page.journal }}"><a href="/journal">SplitLevel Journal</a></li>
               <li class="{{ page.blog }}"><a href="/blog">Blog</a></li>
             </ul>
